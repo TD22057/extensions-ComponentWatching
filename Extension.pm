@@ -43,7 +43,7 @@ sub db_schema_abstract_schema {
                 }
             },
             component_id => {
-                TYPE    => 'INT2',
+                TYPE    => 'INT3',
                 NOTNULL => 0,
                 REFERENCES => {
                     TABLE  => 'components',
